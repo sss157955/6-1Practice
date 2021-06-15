@@ -67,11 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CheckBox.aspx" />
+    <Content Include="CheckBoxCom.aspx" />
     <Content Include="DDList.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckBox.aspx.cs">
+      <DependentUpon>CheckBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBox.aspx.designer.cs">
+      <DependentUpon>CheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxCom.aspx.cs">
+      <DependentUpon>CheckBoxCom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBoxCom.aspx.designer.cs">
+      <DependentUpon>CheckBoxCom.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DDList.aspx.cs">
       <DependentUpon>DDList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
